@@ -9,4 +9,8 @@ tofi-emoji is a fork of [wofi-emoji](https://github.com/Zeioth/wofi-emoji) and i
  - bash...
 
 # usage
-tofi-emoji uses the config from ~/.config/tofi/config-emoji. just symlink your main config if you'd like to reuse it.
+tofi-emoji uses the configfile _~/.config/tofi/config-emoji_. just symlink your main config if you'd like to reuse it.
+`ln ~/.config/tofi/config ~/.config/tofi/config-emoji`  
+
+to use, bind a key in your compositor config to execute `tofi-emoji`.  
+the executable or a symlink to it needs to be in a PATH directory (or provide a direct path in the keybinding)
